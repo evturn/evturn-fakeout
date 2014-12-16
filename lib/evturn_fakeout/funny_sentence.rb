@@ -1,3 +1,5 @@
+require 'faker'
+
 module EvturnFakeout
   class FunnySentence
 
@@ -8,7 +10,7 @@ module EvturnFakeout
       ingverb = Faker::Hacker.ingverb
       name = Faker::Name.name
 
-      "#{name} #{verb} the #{ingverb} #{noun}"
+      "#{name} and Wolfgang Fuck #{verb} the #{ingverb} #{noun}"
     
     end
 
